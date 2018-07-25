@@ -1,8 +1,22 @@
-# Bulma Navbar Menu Walker
+=== Bulma Navbar Menu Walker ===
+Plugin URI: https://github.com/cdayjr/bulma-navbar-menu-walker
+Contributors: cdayjr
+Author URI: https://www.chadwadedayjr.info/
+Tags: jquery migrate, console message
+Requires at least: 4.9
+Tested up to: 4.9
+Stable tag: 1.0.0
+Requires PHP: 7.0.0
+License: MIT
+License URI: https://opensource.org/licenses/MIT
 
-A WordPress Walker class that generates menu items formatted for the [Bulma CSS Framework](https://bulma.io) version 0.7.1. For use with your theme. This is just the walker class, so you'll have to do the heavy lifting yourself.
+A Walker class that generates `navbar-menu`-compatible `navbar-item` elements for the Bulma CSS Framework instead of the standard WordPress `li` elements. Remains compatible with WordPress default hooks and keeps default classes as well.
 
-### Installing
+== Description ==
+
+A Walker class that generates menu items formatted for the [Bulma CSS Framework](https://bulma.io) version 0.7.1. For use with your theme. This is just the walker class, so you'll have to do the heavy lifting yourself.
+
+== Installation ==
 
 1. Upload the plugin files to the `/wp-content/plugins/bulma-navbar-menu-walker` directory, or install the plugin through the WordPress plugins screen directly.
 2. Activate the plugin through the 'Plugins' screen in WordPress
@@ -36,21 +50,16 @@ You can omit them as well and it'll use the defaults (all false except for `is-h
 
 Because Bulma only has two depths for the menu (initial and a dropdown) additional depths are just added via a separator.
 
-## License
+== Changelog ==
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details
-
-## Changelog
-
-### 1.0.0
-
+= 1.0.0 =
 * First release.
 
-## Upgrade Notice
+== Upgrade Notice ==
 
 No upgrades yet.
 
-## Acknowledgments
+== Acknowledgements ==
 
 * [Bulma](https://bulma.io/) - A great CSS framework.
 
